@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx5bf8c88e5f03ca2c",
+# 公众号appSecret
+"app_secret": "0bfd46121372611ee8b4b5aa0407300c",
+# 模板消息id
+"template_id": "vmcx3rrh3rk4MHTB4OVyR6dpQlsaSkbtuBfGKYDkTBg",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["oEbnH6IGqCrNbcVT-DIdGUKx03sE"],
+
+# 信息配置
+# 和风天气apikey
+"weather_key": "fffe007de56a4a2dbf4c02962301928f",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "保定市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "季玲霞", "birthday": "1997-11-14"},
+# 生日2
+"birthday2": {"name": "刘乐天", "birthday": "r1997-07-21"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2021-01-20",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "不是我喜欢的样子你都有，而是你所有的样子我都喜欢！",
+# 金句英文
+"note_en": "The best thing is that the crowd is crowded and you naturally hold my hand!"
+}
